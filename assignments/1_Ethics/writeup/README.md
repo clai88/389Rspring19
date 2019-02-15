@@ -12,7 +12,7 @@ Digital acknowledgement: Christopher Lai
 
 ### Part 1 (25 pts)
 
-This was done via the [ELMS assignment](). Done.
+This was done via the [ELMS assignment]().
 
 ### Part 2 (75 pts)
 

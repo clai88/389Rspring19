@@ -1,4 +1,4 @@
-# Writeup 1 - Ethics
+# Writeup 2 - OSINT
 
 Name: Christopher Lai
 
@@ -37,7 +37,8 @@ Digital acknowledgement: Christopher Lai
         22/tcp   open  ssh
         80/tcp   open  http
         554/tcp  open  rtsp
-        7070/tcp open  realserver ```
+        7070/tcp open  realserver 
+   
 
 7. Werkzeug/0.14.1 Python/3.7.2.  I used an online webserver application.
 

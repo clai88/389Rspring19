@@ -24,7 +24,7 @@ Digital acknowledgement: Christopher Lai
 
     - 
 
-    - Dehashed had some information about the email, but I needed an an active subscription to view the data found ![dehashed error message](https://imgur.com/a/tbeeEe7)
+    - Dehashed had some information about the email, but I needed an an active subscription to view the data found ![dehashed error message](https://i.imgur.com/GYC1MTU.png)
 
 4. 142.93.136.81 in Ontario, Canada.  I used an online ip finder to get this information.  I tried using traceroute  
 

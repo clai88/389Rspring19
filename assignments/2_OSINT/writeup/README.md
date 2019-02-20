@@ -26,6 +26,27 @@ Digital acknowledgement: Christopher Lai
 
     - Github: ```v0idcache```.  User has no public repos, followers, or stars.  Has one commit on February 6th, 2019.
 
+    - Pastebin: Found this conversation between v0idcache and fl1nch:
+
+    ```
+    [+] fl1nch joined
+    [+] v0idcache joined
+    [v0idcache] u there?
+    [fl1nch] hi
+    [v0idcache] what time are we doing this
+    [v0idcache] i have a meeting with the board of directors and they're not going to like this
+    [fl1nch] 1400
+    [v0idcache] ugh i have to get a flight out of here asap
+    [fl1nch] lol
+    [fl1nch] you worry too much
+    [v0idcache] u would too if you were in as much trouble as i am
+    [v0idcache] whats the file you need called
+    [fl1nch] AB4300.txt
+    [fl1nch] thx - we owe you
+    [v0idcache] thank me later
+    [-] v0idcache left
+    [-] fl1nch left```
+
     - Dehashed had some information about the email, but I needed an an active subscription to view the data found ![dehashed error message](https://i.imgur.com/GYC1MTU.png)
 
 4. 142.93.136.81 Digital Ocean in Noord-Holland, Netherlands.
@@ -60,11 +81,13 @@ Digital acknowledgement: Christopher Lai
     22/tcp   open  ssh
     53/tcp   open  domain
     80/tcp   open  http
-    1337/tcp open  waste```
+    1337/tcp open  waste 
+    ```
 
 7. Werkzeug/0.14.1 Python/3.7.2.  I used an online webserver application.
 
-8.  - CMSC389R-{h1dd3n_1n_plain_5ight}. 
+8. Additional Flags
+- CMSC389R-{h1dd3n_1n_plain_5ight}. 
 
 ### Part 2 :
 

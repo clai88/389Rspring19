@@ -22,6 +22,8 @@ Digital acknowledgement: Christopher Lai
 
     - Twitter Followers: ```@umdcsec```.  Located in the following section of twitter
 
+    - Twitter Like: ```@CacheDev0id```.  Commented and liked some of her posts.
+
     - Github: ```v0idcache```.  User has no public repos, followers, or stars.  Has one commit on February 6th, 2019.
 
     - Dehashed had some information about the email, but I needed an an active subscription to view the data found ![dehashed error message](https://i.imgur.com/GYC1MTU.png)
@@ -34,10 +36,9 @@ Digital acknowledgement: Christopher Lai
 6. Result from nmap scan. 
 
     ``` PORT     STATE SERVICE
-        22/tcp   open  ssh
-        80/tcp   open  http
-        554/tcp  open  rtsp
-        7070/tcp open  realserver 
+        22/tcp   open   ssh
+        80/tcp   open   http
+        2034     filtered
    
 
 7. Werkzeug/0.14.1 Python/3.7.2.  I used an online webserver application.

@@ -28,7 +28,7 @@ Digital acknowledgement: Christopher Lai
 
     - Dehashed had some information about the email, but I needed an an active subscription to view the data found ![dehashed error message](https://i.imgur.com/GYC1MTU.png)
 
-4. 142.93.136.81 in Ontario, Canada.
+4. 142.93.136.81 Digital Ocean in Noord-Holland, Netherlands.
 
     Here is the full traceroute scan.
 
@@ -54,13 +54,13 @@ Digital acknowledgement: Christopher Lai
     
 5. I looked in robots.txt and found the flag ```CMSC389R-{h1ding_fil3s_in_r0bots_L0L}```.
 
-6. Result from nmap scan. 
+6. Result from nmap scan of first 10,000 ports. 
 
-    ``` PORT     STATE SERVICE
-        22/tcp   open   ssh
-        80/tcp   open   http
-        2034     filtered
-   
+    ```PORT     STATE SERVICE
+    22/tcp   open  ssh
+    53/tcp   open  domain
+    80/tcp   open  http
+    1337/tcp open  waste```
 
 7. Werkzeug/0.14.1 Python/3.7.2.  I used an online webserver application.
 

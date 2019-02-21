@@ -91,3 +91,9 @@ Digital acknowledgement: Christopher Lai
 
 ### Part 2 :
 
+My program is named ```bruteforce.py``` and can be run using ```python3 bruteforce.py```.
+
+For this part I crafted formatted bytestrings for the username and password and used s.send() to send them to the server.  I iterated over all of the passwords and checked the server response to see if my password worked.
+
+I did attempt to use a multithreaded version by putting all the passwords in a queue and spawning threads to speed up the checking process.
+

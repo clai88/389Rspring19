@@ -74,7 +74,11 @@ Digital acknowledgement: Christopher Lai
     16  ...
     17  121.54 ms 142.93.136.81
     
-5. I looked in robots.txt and found the flag ```CMSC389R-{h1ding_fil3s_in_r0bots_L0L}```.
+5. 
+    - ```CMSC389R-{h1ding_fil3s_in_r0bots_L0L}```
+    - ```CMSC389R-{h1dd3n_1n_plain_5ight}```
+
+
 
 6. Result from nmap scan of first 10,000 ports. 
 
@@ -89,9 +93,7 @@ Digital acknowledgement: Christopher Lai
 
 8. Additional Flags
 
-    - CMSC389R-{h1dd3n_1n_plain_5ight}.
-    - CMSC389R-{brut3_f0rce_m4ster}
-    - CMSC389R-{YWX4H3d3Bz6dx9lG32Odv0JZh}
+    - ```CMSC389R-{YWX4H3d3Bz6dx9lG32Odv0JZh}```.  Hidden in ```/homes/files```.
 
 
 ### Part 2 :
@@ -101,4 +103,6 @@ My program is named ```bruteforce.py``` and can be run using ```python3 brutefor
 For this part I crafted formatted bytestrings for the username and password and used s.send() to send them to the server.  I iterated over all of the passwords and checked the server response to see if my password worked.
 
 I did attempt to use a multithreaded version by putting all the passwords in a queue and spawning threads to speed up the checking process.  This one is ```bruteforce_multi.py```.
+
+Flag: ```CMSC389R-{brut3_f0rce_m4ster}```
 

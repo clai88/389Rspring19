@@ -43,3 +43,10 @@ Digital acknowledgement: Christopher Lai
 6. Which file did the attackers leave on the server?
 
 7. What is a countermeasure to prevent this kind of intrusion from happening again? Note: disabling the vulnerable service is *not* an option.
+
+*Replace this text with your repsonse to our prompt for part 1!*
+
+### Part 2 (55 Pts)
+
+*Replace this text with your repsonse to our prompt for part 2!*
+

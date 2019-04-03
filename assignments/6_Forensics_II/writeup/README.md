@@ -1,4 +1,4 @@
-# Writeup 6 - Forensics II
+# Writeup 6 - Forensics
 
 Name: Christopher Lai
 Section: 0101
@@ -26,27 +26,32 @@ Digital acknowledgement: Christopher Lai
 
 4. What port are they using to steal files on the server?
 
-- 
+- 20
 
 5. Which file did they steal? What kind of file is it? Provide all metadata on the file. Specifically,
 
     a) What kind of file is it?
+     - jpeg image called find_me.jpeg
 
     b) Where was this photo taken? Provide a city, state and the name of the building in your answer.
+    - somewhere
 
     c) When was this photo taken? Provide a timestamp in your answer.
+    - 12/23/2018 5:16PM
 
     d) What kind of camera took this photo?
+    - Apple iphone 8
 
     e) How high up was this photo taken? Provide an answer in meters.
+    - 4.572631836 meters below sea level
 
 6. Which file did the attackers leave on the server?
+- greetz.fpff
 
 7. What is a countermeasure to prevent this kind of intrusion from happening again? Note: disabling the vulnerable service is *not* an option.
-
-*Replace this text with your repsonse to our prompt for part 1!*
+- allowing only authorized users from certain ip addresses to connect to the server
 
 ### Part 2 (55 Pts)
 
-*Replace this text with your repsonse to our prompt for part 2!*
+
 

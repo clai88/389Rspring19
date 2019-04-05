@@ -33,8 +33,8 @@ Digital acknowledgement: Christopher Lai
     a) What kind of file is it?
      - jpeg image called find_me.jpeg
 
-    b) Where was this photo taken? Provide a city, state and the name of the building in your answer.
-    - somewhere
+    b) Where was this photo taken? Provide a country and city in your answer.
+    - Punta del Este, Uraguay
 
     c) When was this photo taken? Provide a timestamp in your answer.
     - 12/23/2018 5:16PM

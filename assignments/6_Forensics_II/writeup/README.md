@@ -26,7 +26,7 @@ Digital acknowledgement: Christopher Lai
 
 4. What port are they using to steal files on the server?
 
-- 21
+- 20
 
 5. Which file did they steal? What kind of file is it? Provide all metadata on the file. Specifically,
 

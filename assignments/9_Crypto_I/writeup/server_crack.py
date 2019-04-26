@@ -28,7 +28,6 @@ def server_crack():
 
     # crack 3 times
     while (i < 3):
-        print("recieving")
         data = s.recv(1024)
 
         h = data.split("\n")[2]

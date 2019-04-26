@@ -32,15 +32,12 @@ owhatever:833c3b30b541406a644932cd498fb4d85c65f11e4968333be659c31812d2d6be
 
 ```
 $ python server_crack.py
-recieving
 1f44505bb9eefef4965b1efc0396ed000c9d075c9dcc0d775e81edee662b6a22
 g000000
 --------cracked hash--------------
-recieving
 ae7785da77f69449e0e7428776b2a94b42bcd08dc9128ab0760b456ff8815d02
 owestside
 --------cracked hash--------------
-recieving
 1bc24efcacdf3da3d5f80eb8e8018f7a20ffdfbb70b1956390f9710b967a469c
 amonkey
 --------cracked hash--------------

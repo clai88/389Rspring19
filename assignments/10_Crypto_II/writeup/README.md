@@ -1,12 +1,12 @@
 # Crypto II Writeup
 
-Name: *PUT YOUR NAME HERE*
-Section: *PUT YOUR SECTION NUMBER HERE*
+Name: Christopher Lai
+Section: 0101
 
 I pledge on my honor that I have not given or received any unauthorized
 assistance on this assignment or examination.
 
-Digital acknowledgement: *PUT YOUR NAME HERE*
+Digital acknowledgement: Christopher Lai
 
 ## Assignment Writeup
 
@@ -16,11 +16,13 @@ I ran ```gpg --import key.asc``` to import the secret key, and then ran ```gpg -
 
 ```your flag is: CMSC389R-{m3ss@g3_!n_A_b0ttl3}```
 
-![image](../screenshot.png "screenshot")
+![](../screenshot.png "screenshot")
 
 Afterwards, I ran the command ```gpg --clearsign signature.txt``` to make a cleartext signature.
 
 
 ### Part 2 (30 Pts)
+
+
 
 

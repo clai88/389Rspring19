@@ -16,12 +16,27 @@ I ran ```gpg --import key.asc``` to import the secret key, and then ran ```gpg -
 
 ```your flag is: CMSC389R-{m3ss@g3_!n_A_b0ttl3}```
 
-![](screenshot.png "screenshot")
+![image](screenshot.png "screenshot")
 
 Afterwards, I ran the command ```gpg --clearsign signature.txt``` to make a cleartext signature.
 
 
 ### Part 2 (30 Pts)
+
+##### Original
+![image](original.bmp)
+
+##### ECB
+![image](ecb.bmp)
+
+##### CBC
+![image](cbc.bmp)
+
+
+
+The image encrypted using ecb mode still has the shapes roughly visible, while the image encrypted using cbc is just a bunch of colorful digital noise.
+
+Ecb is a relatively basic form of block cipher encryption, while cbc uses previous blocks to encrypt the current block, making it more secure.
 
 
 

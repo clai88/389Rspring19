@@ -36,7 +36,7 @@ Afterwards, I ran the command ```gpg --clearsign signature.txt``` to make a clea
 
 The image encrypted using ecb mode still has the shapes roughly visible, while the image encrypted using cbc is just a bunch of colorful digital noise.
 
-Ecb is a relatively basic form of block cipher encryption, while cbc uses previous blocks to encrypt the current block, making it more secure.
+Ecb is a relatively basic form of block cipher encryption, while cbc uses previous blocks to encrypt the current block, making it more secure.  ECB concatenates each previous block with the next block which makes it simple to use, but leaks information about your output.  On the other hand, CBC actually xors the current block with the previous block, adding a large degree of variation among each block. (For the first block, you xor with the initialization vector).
 
 
 

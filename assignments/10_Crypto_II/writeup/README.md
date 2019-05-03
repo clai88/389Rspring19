@@ -16,7 +16,7 @@ I ran ```gpg --import key.asc``` to import the secret key, and then ran ```gpg -
 
 ```your flag is: CMSC389R-{m3ss@g3_!n_A_b0ttl3}```
 
-![image](screenshot.png "screenshot")
+![image](screenshot.PNG "screenshot")
 
 Afterwards, I ran the command ```gpg --clearsign signature.txt``` to make a cleartext signature.
 

